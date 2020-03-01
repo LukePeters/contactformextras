@@ -10,8 +10,6 @@
 
 namespace modules\contactformextras;
 
-use modules\contactformextras\assetbundles\contactformextras\ContactFormExtrasAsset;
-
 use Craft;
 use craft\events\RegisterTemplateRootsEvent;
 use craft\events\TemplateEvent;

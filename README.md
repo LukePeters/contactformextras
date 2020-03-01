@@ -1,4 +1,4 @@
-# Custom Email Templates with the Craft CMS Contact Form Plugin
+# Custom Email Template for the Craft CMS Contact Form Plugin
 
 When the contact form is submitted this module overrides the default email template with your own HTML.
 
