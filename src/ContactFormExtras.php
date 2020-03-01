@@ -81,7 +81,7 @@ class ContactFormExtras extends Module
         // Intercept the email before it sends
         Event::on(Mailer::class, Mailer::EVENT_BEFORE_SEND, function(SendEvent $e) {
 
-            // Get the form values
+            // Get the form values (change to match your form)
             $name = $e->submission->fromName;
             $email = $e->submission->fromEmail;
             $subject = $e->submission->subject;
@@ -90,7 +90,7 @@ class ContactFormExtras extends Module
             // Load the custom email template
             $customEmailTemplate = file_get_contents(__DIR__ . "/template.html");
 
-            // Insert form values into the custom email template
+            // Insert form values into the custom email template (change to match your form)
             $customEmailTemplate = str_replace('[[name]]', $name, $customEmailTemplate);
             $customEmailTemplate = str_replace('[[email]]', $email, $customEmailTemplate);
             $customEmailTemplate = str_replace('[[subject]]', $subject, $customEmailTemplate);
