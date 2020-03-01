@@ -2,7 +2,7 @@
 /**
  * Contact Form Extras module for Craft CMS 3.x
  *
- * Lets you to use a custom email template with the Craft CMS Contact Form plugin.
+ * Use your own HTML email template with the Craft CMS Contact Form plugin.
  *
  * @link      https://lukepeters.me
  * @copyright Copyright (c) 2020 Luke Peters
