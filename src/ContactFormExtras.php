@@ -96,7 +96,7 @@ class ContactFormExtras extends Module
             $customEmailTemplate = str_replace('[[subject]]', $subject, $customEmailTemplate);
             $customEmailTemplate = str_replace('[[message]]', $message, $customEmailTemplate);
             
-            // Replace the email text body and HTML body with our custom template
+            // Replace the email HTML body with our custom template
             $e->message->setHtmlBody($customEmailTemplate);
         });
 
