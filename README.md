@@ -65,4 +65,4 @@ $customEmailTemplate = str_replace('[[message]]', $message, $customEmailTemplate
 
 Finally, modify the placeholder field values in the HTML template itself: `/modules/contactformextras/template.html`
 
-And of course, you can customize this template as much as you like!
+And of course, customize this template as much as you like!
